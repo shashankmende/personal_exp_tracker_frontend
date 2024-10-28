@@ -2,9 +2,9 @@
 import React, { useContext, useState } from "react"
 import axios from 'axios'
 
-const BASE_URL = "http://localhost:3000/api/v1/"
+// const BASE_URL = "http://localhost:3000/api/v1/"
 // const BASE_URL = "https://personal-exp-tracker-backend.onrender.com/api/v1/"
-// const BASE_URL = process.env.REACT_APP_BASE_URL
+const BASE_URL = process.env.REACT_APP_BASE_URL
 
 
 
