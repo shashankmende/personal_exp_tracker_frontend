@@ -51,12 +51,16 @@ function App() {
 
 const AppStyled = styled.div`
   height: 100vh;
-  background-image: url(${bg});
+  // background-image: url(${bg});
   position: relative; 
+  // background-color:#89ABE3;
+  background-color: hsl(0,0%,94%);
   
   main{
     flex:1;
-    background-color:rgba(252,246,249,0.78);
+    
+    // background-color:rgba(252,246,249,0.78);
+    // background-color: #C4DFE6;
     border:3px solid #FFFFFF;
     border-radius:32px;
     backdrop-filter:blur(4.5px)

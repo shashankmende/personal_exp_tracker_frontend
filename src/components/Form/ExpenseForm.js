@@ -9,7 +9,7 @@ import Button from "../Button/Button";
 import { plus } from "../../utils/icons";
 
 export default function ExpenseForm() {
-  const { addExpense, getExpense,error } = useGlobalContext();
+  const { addExpense, getExpense,error,setError } = useGlobalContext();
 
   const [inputState, setInputState] = useState({
     title: "",
@@ -28,6 +28,8 @@ export default function ExpenseForm() {
 
       [name]: name === "amount" ? Number(value) : value,
     });
+    setError('')
+
   };
 
   const handleSubmit = (e) => {

@@ -202,6 +202,10 @@ const DashboardStyled  = styled.div`
         grid-column:span -1;
       }
 
+      .chart-con{
+        height: 300px;
+      }
+
 
 
 

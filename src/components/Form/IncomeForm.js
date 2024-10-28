@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 import DatePicker from "react-datepicker";
@@ -10,6 +10,10 @@ import { plus } from "../../utils/icons";
 
 export default function Form() {
   const { addIncome, getIncome,error,setError } = useGlobalContext();
+
+  useEffect(()=>{
+    setError('')
+  },[])
 
   const [inputState, setInputState] = useState({
     title: "",

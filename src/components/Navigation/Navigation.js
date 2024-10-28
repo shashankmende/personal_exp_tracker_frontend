@@ -43,7 +43,8 @@ const NavStyled = styled.nav`
     padding: 2rem 1.5rem;
     // width:374px;
     height:100%;
-    background:rgba(252,246,249,.78);
+    // background:rgba(252,246,249,.78);
+    // background:#AAB396;
     border:3px solid #FFFFFF;
     backdrop-filter:blur(4.5px);
     border-radius:32px;
@@ -69,7 +70,8 @@ const NavStyled = styled.nav`
             }
 
             h2{
-            color:rgba(34,34,34,.1)
+            // color:rgba(34,34,34,.1);
+            
             }
             p{
             color:rgba(34,34,34,.6)
@@ -120,6 +122,16 @@ const NavStyled = styled.nav`
         border-radius:0 10px 10px 0;
         
         }
+    }
+
+
+    @media (width<=998px){
+      .user-con img {
+        width:60px;
+        height:60px;
+        aspect-ratio:1;
+      }
+    
     }
         
 `;
