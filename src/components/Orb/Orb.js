@@ -36,7 +36,7 @@ export default function Orb() {
     // background-image:linear-gradient(180deg,red 100%,#F2994A 100%);
    
     filter:blur(400px);
-    animation: ${moveOrb} 1s alternate linear infinite;
+    // animation: ${moveOrb} 1s alternate linear infinite;
     `;
  
 

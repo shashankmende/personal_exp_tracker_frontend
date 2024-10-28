@@ -84,4 +84,12 @@ const IncomeStyled  = styled.div`
         }
     }
 
+    @media (width<=998px){
+    
+        .income-content{
+        
+            flex-direction:column;
+        }
+    }
+
 `

@@ -51,4 +51,11 @@ export const GlobalStyle = createGlobalStyle`
             transform:translateX(0)
             }
       }
+
+      @media (width<=998px){
+        html{
+      font-size:62.5%
+      }
+      }
+      
 `;

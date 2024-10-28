@@ -48,6 +48,7 @@ const ChartStyled = styled.div`
   padding: 1rem;
   border-radius: 20px;
   height: 100%;
+
 `;
 
 export default Chart;
